@@ -39,5 +39,11 @@ namespace DALTUDTXD_TenDeTai_MSSV_68TH4.Views.UserControls
             KetNoiEtabsView ketNoiEtabsView = new KetNoiEtabsView();
             ketNoiEtabsView.ShowDialog();
         }
+
+        private void rbt_Oxyplot_Click(object sender, RoutedEventArgs e)
+        {
+            BieuDoMomentView bieuDoMomentView = new BieuDoMomentView();
+            bieuDoMomentView.ShowDialog();
+        }
     }
 }
