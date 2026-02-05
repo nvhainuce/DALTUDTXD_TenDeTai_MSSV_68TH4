@@ -81,6 +81,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\BieuDoMomentView.xaml.cs">
+      <DependentUpon>BieuDoMomentView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\KetNoiEtabsView.xaml.cs">
       <DependentUpon>KetNoiEtabsView.xaml</DependentUpon>
     </Compile>
@@ -96,6 +99,10 @@
     <Compile Include="Views\UserControls\UC_Status.xaml.cs">
       <DependentUpon>UC_Status.xaml</DependentUpon>
     </Compile>
+    <Page Include="Views\BieuDoMomentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\KetNoiEtabsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

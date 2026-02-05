@@ -13,7 +13,8 @@
                     <RibbonButton x:Name="rbt_KetNoiEtabs" Label="Kết nối Etabs"
                          Click="rbt_KetNoiEtabs_Click"    LargeImageSource="/Assets/Icons/AddLink.png"/>
 
-                    
+                    <RibbonButton x:Name="rbt_Oxyplot" Label="PlotView"
+        Click="rbt_Oxyplot_Click"    LargeImageSource="/Assets/Icons/AddLink.png"/>
                     <RibbonCheckBox Label="Lấy dữ liệu tự động"/>
                     <RibbonComboBox Label="Chọn loại kết cấu"
                                SmallImageSource="/Assets/Icons/Download from the Cloud.png">
