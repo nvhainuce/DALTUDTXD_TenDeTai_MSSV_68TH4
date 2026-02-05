@@ -7,11 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="150" d:DesignWidth="800">
     <Grid>
-        <Ribbon Grid.Row="0" SelectedIndex="1" Background="#FFDDE7F4">
+        <Ribbon Grid.Row="0" SelectedIndex="0" Background="#FFDDE7F4">
             <RibbonTab Header="Dữ liệu" >
                 <RibbonGroup Header="Etabs API">
-                    <RibbonButton Label="Kết nối Etabs"
-                            LargeImageSource="/Assets/Icons/AddLink.png"/>
+                    <RibbonButton x:Name="rbt_KetNoiEtabs" Label="Kết nối Etabs"
+                         Click="rbt_KetNoiEtabs_Click"    LargeImageSource="/Assets/Icons/AddLink.png"/>
 
                     
                     <RibbonCheckBox Label="Lấy dữ liệu tự động"/>
