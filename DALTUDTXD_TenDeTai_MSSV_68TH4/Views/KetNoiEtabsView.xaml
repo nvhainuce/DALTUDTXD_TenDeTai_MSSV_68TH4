@@ -1,0 +1,16 @@
+﻿<Window x:Class="DALTUDTXD_TenDeTai_MSSV_68TH4.Views.KetNoiEtabsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DALTUDTXD_TenDeTai_MSSV_68TH4.Views"
+        mc:Ignorable="d"
+        Title="KetNoiEtabsView" Height="200" Width="300">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Kết nối Etabs" Width="150" Height="40" Margin="0,0,0,5" Click="ConnectEtabsButton_Click"/>
+            <Label Content="Kết nối Etabs đang tiến hành..." HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0"/>
+            <ProgressBar Name="progressBar" Width="200" Height="30" Minimum="0" Maximum="100" Value="50" />
+        </StackPanel>
+    </Grid>
+</Window>

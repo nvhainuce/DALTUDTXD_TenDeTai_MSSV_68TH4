@@ -33,5 +33,11 @@ namespace DALTUDTXD_TenDeTai_MSSV_68TH4.Views.UserControls
         {
             Mainframe.Content = new Plan2DPage();
         }
+
+        private void rbt_KetNoiEtabs_Click(object sender, RoutedEventArgs e)
+        {
+            KetNoiEtabsView ketNoiEtabsView = new KetNoiEtabsView();
+            ketNoiEtabsView.ShowDialog();
+        }
     }
 }
